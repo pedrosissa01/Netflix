@@ -1,0 +1,23 @@
+{
+  "name": "NetflixApp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "nuxt": "^3.8.0",
+    "nuxt-mdi": "^1.1.1",
+    "vue": "^3.3.6",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.0.2"
+  }
+}
